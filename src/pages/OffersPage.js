@@ -33,7 +33,7 @@ const OffersPage = () => {
 
   return (
     <Container maxWidth="lg">
-      <Typography variant="h4" align="center" gutterBottom sx={{ mt: 3 }}>
+      <Typography variant="h4" align="center" gutterBottom sx={{ mt: 3, fontWeight: 'bold' }}>
         OUR OFFERS
       </Typography>
 
@@ -63,6 +63,7 @@ const OffersPage = () => {
                     justifyContent: "center",
                     width: "250px",
                     minWidth: "350px",
+                    borderRadius: 5,
                     transition: "transform 0.3s ease, box-shadow 0.3s ease",
                     "&:hover": {
                       transform: "scale(1.02)",
@@ -119,6 +120,7 @@ const OffersPage = () => {
                     justifyContent: "center",
                     width: "250px",
                     minWidth: "350px",
+                    borderRadius: 5,
                     transition: "transform 0.3s ease, box-shadow 0.3s ease",
                     "&:hover": {
                       transform: "scale(1.02)",
