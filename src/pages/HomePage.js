@@ -5,6 +5,7 @@ import CallIcon from '@mui/icons-material/Call';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import LiveHelpIcon from '@mui/icons-material/LiveHelp';
 import SmsIcon from '@mui/icons-material/Sms';
+import Tele from "../assets/tele.jpg";
 
 const HomePage = () => {
   const services = [
@@ -32,7 +33,7 @@ const HomePage = () => {
   return (
     <Box>
       <Box sx={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/telecommunication-tower-with-beautiful-sky_1232-3151.jpg?t=st=1744137012~exp=1744140612~hmac=28d864cf5bc1910e63060ff415ded487b88ac5df4270466e0ef186c337923f3e&w=1380')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${Tele})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
